@@ -24,5 +24,5 @@ var server = http.createServer(app).listen(port);
 
 console.log("[INIT]".green + "express starting on: " + port);
 
-var routes = require('./service/routes/defaultRoutes');
+var routes = require('./server/routes/defaultRoutes');
 app.use('/', routes);

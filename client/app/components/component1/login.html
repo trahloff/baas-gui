@@ -1,1 +1,31 @@
-{{status}}
+<md-content layout="column" layout-align="center center">
+
+    <md-card>
+
+        <md-content>
+
+            <md-card-title>
+                <md-card-title-text>
+                    <span class="md-headline">Montag</span>
+                    <span class="md-subhead">I'm a subheadline</span>
+                </md-card-title-text>
+            </md-card-title>
+
+            <md-card-content>
+                Bool UUID: {{id}}
+                <br>
+                Bool Value: {{val}}
+            </md-card-content>
+
+            <md-card-actions layout="row" layout-align="end center">
+                <md-button ng-click="baasCreate()">Create</md-button>
+                <md-button ng-click="baasGet()">Get</md-button>
+                <md-button ng-click="baasToggle()">Toggle</md-button>
+                <md-button ng-click="baasDelete()">Delete</md-button>
+            </md-card-actions>
+
+        </md-content>
+
+    </md-card>
+
+</md-content>

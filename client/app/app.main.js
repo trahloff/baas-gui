@@ -5,8 +5,11 @@ var app = angular.module('Angular-Skeleton', // general tools HAVE to be loaded 
     //general tools
     'ui.router', 'ngMaterial', 'md.data.table',
 
-    //components
-    'component1.main'
+    //main components
+    'component1.main',
+
+    //services etc
+    'baasServices'
   ]);
 
 //some general app config stuff
