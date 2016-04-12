@@ -3,6 +3,6 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: angular-skeleton
-  host: angular-skeleton
+  name: baas-gui
+  host: baas-gui
   disk_quota: 512M

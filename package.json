@@ -1,5 +1,5 @@
 {
-  "name": "angular-skeleton",
+  "name": "baas-gui",
   "version": "1.0.0",
   "description": "This README.md file is displayed on your project page. You should edit this \r file to describe your project, including instructions for building and \r running the project, pointers to the license under which you are making the \r project available, and anything else you think would be useful for others to\r know.",
   "main": "app.js",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trahloff/Angular-Skeleton"
+    "url": "https://github.com/trahloff/baas-gui.git"
   },
   "engines": {
     "node": "^0.12.x"
